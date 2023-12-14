@@ -1,0 +1,92 @@
+.calculator{
+    height: 500px;
+    width: 250px;
+    max-width: px;
+    max-height: 500px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    height: 50px;
+    max-height: 50px;
+    width: 225px;
+    max-width: 225px;
+    border: 3px solid black;
+}
+
+.numbersAndSide{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidePanel{
+    height: 150px;
+    width: 75px;
+    border: 3px solid black;
+}
+
+.numbersPanel{
+    height: 50px;
+    max-height: 125px;
+    width: 180px;
+    max-width: 150px;
+    border: 3px solid black;
+    
+}
+
+
+
+.mathButtons{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    box-sizing: border-box;
+    
+}
+
+.numbersButtons{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.numbersAndClear{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+.equals{
+    margin-top: 20px;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2{
+    padding-bottom: 35px;
+}
