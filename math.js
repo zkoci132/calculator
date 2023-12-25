@@ -13,6 +13,7 @@ let addedDec = false;
 
 
 
+
 main()
 
 function main(){
@@ -31,6 +32,7 @@ function buildButtons(){
         let decimalButton = document.querySelector('.decimal')
         let backspaceButton = document.querySelector('.backspaceButton');
         let plusMinusButton = document.querySelector('.plusMinusButton');
+
 
         plusMinusButton.addEventListener('click',()=>{
             console.log(screen.firstChild.nodeValue)
